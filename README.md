@@ -96,3 +96,40 @@ These requirements ensure the system is usable, efficient, and maintainable.
 ---
 
 Understanding and documenting both types of requirements ensures that the system not only works as expected but also performs reliably and securely in real-world conditions.
+
+
+## Use Case Diagrams
+
+**Use Case Diagrams** are a type of Unified Modeling Language (UML) diagram that visually represent the interactions between users (actors) and the system. They help capture the functional requirements of a system by identifying the various use cases and how external entities (users or systems) interact with them.
+
+### Benefits of Use Case Diagrams
+
+- Provide a clear overview of system functionality from a user's perspective.
+- Help identify system boundaries and interactions early in development.
+- Support communication between stakeholders and developers.
+- Serve as a foundation for writing user stories, test cases, and technical specifications.
+
+### Use Case Diagram: Booking Management System
+
+Below is a simplified use case diagram that illustrates the main actors and use cases of the booking system.
+
+#### Actors:
+- **Guest (User)**
+- **Admin**
+- **Host (Property Owner)**
+
+#### Use Cases:
+- Register/Login
+- Search Listings
+- View Property Details
+- Make a Booking
+- Cancel Booking
+- Leave Review
+- Manage Listings (Host)
+- Approve Listings (Admin)
+- View Booking History
+- Receive Notifications
+
+### Diagram
+
+![Booking Management Use Case Diagram](alx-booking-uc.png)
