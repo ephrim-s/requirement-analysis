@@ -60,3 +60,39 @@ By focusing on what the users actually need and validating those needs throughou
 ---
 
 By addressing potential risks, setting clear expectations, and ensuring that the solution is aligned with business objectives, **Requirement Analysis** acts as a cornerstone for the success of any software project.
+
+## Types of Requirements
+
+In software development, requirements are generally categorized into two main types: **Functional Requirements** and **Non-functional Requirements**. Both are essential to building a complete and reliable system. Below is a breakdown of each type in the context of a **Booking Management System**.
+
+### Functional Requirements
+
+**Functional Requirements** describe what the system should do — the specific behaviors, functions, and features that must be implemented.
+
+These requirements are directly tied to the core operations of the system and outline how it interacts with users, external systems, or internal processes.
+
+#### Examples for a Booking Management System:
+- Users must be able to **create an account** using their email and password.
+- The system must allow users to **search for available rooms** based on dates, location, and type.
+- Registered users should be able to **make a booking** for selected dates and properties.
+- The admin should be able to **add, edit, or delete** room listings.
+- Users must receive **email confirmation** upon successful booking.
+- The system must allow **cancellation or modification** of bookings based on policy.
+
+### Non-functional Requirements
+
+**Non-functional Requirements** describe how the system should behave. They define quality attributes, constraints, and performance benchmarks that the system must meet, but do not directly relate to specific functionalities.
+
+These requirements ensure the system is usable, efficient, and maintainable.
+
+#### Examples for a Booking Management System:
+- The system must respond to search queries within **2 seconds** (Performance).
+- User data must be stored securely and **encrypted at rest** (Security).
+- The platform should be **available 99.9%** of the time annually (Availability).
+- The UI should be **responsive** and work seamlessly across mobile, tablet, and desktop devices (Usability).
+- The system should be able to handle **up to 10,000 concurrent users** during peak times (Scalability).
+- Booking records should be stored for **at least 5 years** for auditing purposes (Data Retention).
+
+---
+
+Understanding and documenting both types of requirements ensures that the system not only works as expected but also performs reliably and securely in real-world conditions.
